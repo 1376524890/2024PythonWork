@@ -4,29 +4,253 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff696e08-28f0-4df4-ad27-30a9b6729b22" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/2024PythonWork.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Area1_Argument.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Area1_Load.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LSTM_elec(1).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/案例1 基于LSTM模型的电力负荷预测案例分析(1).pdf" afterDir="false" />
+    <list default="true" id="ff696e08-28f0-4df4-ad27-30a9b6729b22" name="更改" comment="调试完成">
+      <change afterPath="$PROJECT_DIR$/LSTM_explan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0008.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0012.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0013.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0014.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0015.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0016.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0017.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0018.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0021.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0022.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0023.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0025.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0026.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0027.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0028.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0029.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0030.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0031.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0032.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0033.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0034.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0035.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0036.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0037.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0038.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0039.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0040.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0041.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0042.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0043.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0044.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0045.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0046.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0047.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0048.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0049.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0050.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0051.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0052.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0053.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0054.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0055.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0056.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0057.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0058.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0059.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0060.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0061.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0062.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0063.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0064.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0065.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0066.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0067.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0068.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0069.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0070.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0071.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0072.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0073.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0074.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0075.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0076.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0077.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0078.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0079.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0080.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0081.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0082.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0083.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0084.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0085.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0086.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0087.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0088.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0089.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0090.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0091.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0092.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0093.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0094.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0095.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0096.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0097.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0098.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0099.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0101.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0102.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0103.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0104.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0105.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0106.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0107.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0108.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0109.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0110.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0111.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0113.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0114.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0115.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0116.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0117.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0118.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0119.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0120.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0121.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0122.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0123.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0124.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0125.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0126.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0127.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0129.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0130.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0131.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0132.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0133.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0134.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0135.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0136.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0137.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0138.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0139.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0140.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0141.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0142.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0143.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0144.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0145.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0146.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0147.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0148.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0149.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0151.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0152.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0153.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0154.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0155.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0156.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0157.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0158.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0159.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0160.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0161.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0162.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0163.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0164.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0165.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0166.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0167.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0168.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0169.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0170.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0171.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0172.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0173.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0174.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0175.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0176.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0177.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0178.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0179.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0180.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0181.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0182.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0183.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0184.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0185.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0186.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0187.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0188.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0189.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0190.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0191.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0192.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0193.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0194.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0195.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0196.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0197.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0198.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0199.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0201.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0202.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0203.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0204.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0205.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0206.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/frame_0207.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handtrace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pic2video.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video2pic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/your_video.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;1376524890&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/1376524890/2024PythonWork.git&quot;,
+    &quot;accountId&quot;: &quot;89ce20ed-f87b-4fea-8433-f9ef8f7c8b5a&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2ot7J5YziJcNBOND7Zj4YgJCjpt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -39,9 +263,12 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.LSTM_elec(1).executor": "Run",
+    "Python.handtrace.executor": "Run",
+    "Python.pic2video.executor": "Run",
+    "Python.video2pic.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/pythonProject/2024PythonWork",
+    "last_opened_file_path": "D:/pythonProject/midi_ai",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,16 +294,45 @@
       <option name="presentableId" value="Default" />
       <updated>1731676942822</updated>
       <workItem from="1731676943843" duration="1682000" />
+      <workItem from="1731681573605" duration="1125000" />
+      <workItem from="1732189886392" duration="4216000" />
+      <workItem from="1732262459421" duration="233000" />
+      <workItem from="1732265352664" duration="1940000" />
     </task>
+    <task id="LOCAL-00001" summary="调试完成">
+      <option name="closed" value="true" />
+      <created>1731681647732</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731681647732</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="调试完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="调试完成" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/2024PythonWork$pic2video.coverage" NAME="pic2video 覆盖结果" MODIFIED="1732267120955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/2024PythonWork$video2pic.coverage" NAME="video2pic 覆盖结果" MODIFIED="1732267287709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/2024PythonWork$handtrace.coverage" NAME="handtrace 覆盖结果" MODIFIED="1732266131410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/2024PythonWork$LSTM_elec_1_.coverage" NAME="LSTM_elec(1) 覆盖结果" MODIFIED="1731677356892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
