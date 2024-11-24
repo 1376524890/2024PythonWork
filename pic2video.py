@@ -3,6 +3,9 @@ import cv2
 import os
 import glob
 
+import peopleIdentify
+
+
 class ImageSequencePlayer:
     def __init__(self, image_dir, frame_rate=30):
         """
@@ -28,8 +31,8 @@ class ImageSequencePlayer:
                 continue
 
             # 绘制方框
-            x, y, w, h = 100, 100, 200, 200  # 方框的位置和大小
-            cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
+            for(x,y,w,h)in peopleIdentify.detect_faces(image_path):
+                cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
 
             # 绘制文字
             text = "Sample Text"
@@ -49,6 +52,6 @@ class ImageSequencePlayer:
 
 # 示例用法
 if __name__ == "__main__":
-    image_dir = 'D:/pythonProject/2024PythonWork/frames'
+    image_dir = 'img1'
     player = ImageSequencePlayer(image_dir, frame_rate=30)
     player.play()
