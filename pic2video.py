@@ -4,6 +4,7 @@ import os
 import glob
 
 import peopleIdentify
+from FrameDrawer import FrameDrawer
 
 
 class ImageSequencePlayer:
@@ -17,6 +18,8 @@ class ImageSequencePlayer:
         self.image_dir = image_dir
         self.frame_rate = frame_rate
         self.images = sorted(glob.glob(os.path.join(image_dir, '*.jpg')))
+        self.face_cascade = peopleIdentify.load_face_cascade()  # 加载人脸检测模型
+        self.frame_drawer = FrameDrawer()  # 创建 FrameDrawer 实例
 
     def play(self):
         """
@@ -30,18 +33,11 @@ class ImageSequencePlayer:
                 print(f"无法读取图片: {image_path}")
                 continue
 
-            # 绘制方框
-            for(x,y,w,h)in peopleIdentify.detect_faces(image_path):
-                cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
+            # 检测人脸
+            faces = peopleIdentify.detect_faces(frame, self.face_cascade)
 
-            # 绘制文字
-            text = "Sample Text"
-            font = cv2.FONT_HERSHEY_SIMPLEX
-            font_scale = 1
-            font_color = (255, 0, 0)
-            thickness = 2
-            text_position = (50, 50)  # 文字的位置
-            cv2.putText(frame, text, text_position, font, font_scale, font_color, thickness)
+            # 绘制方框和文字
+            self.frame_drawer.draw_faces(frame, faces)
 
             cv2.imshow('Image Sequence', frame)
             if cv2.waitKey(delay) & 0xFF == ord('q'):
