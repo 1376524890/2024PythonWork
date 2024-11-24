@@ -15,6 +15,7 @@ class ImageSequencePlayer:
         :param image_dir: 图片文件所在的目录
         :param frame_rate: 播放帧率，默认为30帧/秒
         """
+
         self.image_dir = image_dir
         self.frame_rate = frame_rate
         self.images = sorted(glob.glob(os.path.join(image_dir, '*.jpg')))
