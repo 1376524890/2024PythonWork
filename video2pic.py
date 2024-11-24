@@ -33,7 +33,7 @@ class VideoToImages:
             # 检查是否需要保存当前帧
             if current_time >= frame_count / frame_rate:
                 # 缩小帧的分辨率
-                resized_frame = cv2.resize(frame, (0, 0), fx=0.3, fy=0.3)
+                resized_frame = cv2.resize(frame, (0, 0), fx=1, fy=1)
                 image_path = os.path.join(self.output_dir, f"frame_{frame_count:04d}.jpg")
                 cv2.imwrite(image_path, resized_frame)
                 frame_count += 1
@@ -46,8 +46,8 @@ class VideoToImages:
 
 # 示例用法
 if __name__ == "__main__":
-    video_path = 'D:/pythonProject/2024PythonWork/your_video.mp4'
-    output_dir = 'D:/pythonProject/2024PythonWork/frames'
+    video_path = 'data/video3.mp4'
+    output_dir = 'data/img3'
 
     converter = VideoToImages(video_path, output_dir)
     converter.convert(frame_rate=30)

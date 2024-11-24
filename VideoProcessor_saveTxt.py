@@ -54,15 +54,12 @@ class VideoProcessor:
         out.release()
         cv2.destroyAllWindows()
 
-# 修改后的 YOLOv8Detector 类
-
-
 # 使用示例
 if __name__ == "__main__":
-    model_path = 'model/yolov8s.pt'
-    image_dir = 'data/img2'
-    output_video_path = 'output/output_video2s.mp4'
-    output_txt_path = 'output/detection_info2s.txt'
+    model_path = 'model/yolov8n.pt'
+    image_dir = 'data/img3'
+    output_video_path = 'output/output_video3n.mp4'
+    output_txt_path = 'output/detection_info3n.txt'
 
     detector = YOLOv8Detector(model_path)
     video_processor = VideoProcessor(detector, image_dir, output_video_path, output_txt_path)
